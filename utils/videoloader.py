@@ -53,7 +53,7 @@ class trafic4cast_dataset(torch.utils.data.Dataset):
     
     def __init__(self, source_root, target_root="precomuted_data",
                  split_type='train',
-                 cities=['Berlin', 'Istanbul', 'Moscow'],
+                 cities=['Berlin'],
                  transform=None, reduce=False, compression=None,
                  num_frames=15, do_subsample=None, filter_test_times=False,
                  return_features=False, return_city=False):
